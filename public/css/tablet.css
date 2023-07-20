@@ -1,0 +1,363 @@
+@media screen and (min-width: 717px) and (max-width: 1360px) {
+    
+    header {
+        padding: 1rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    header .section-header {
+        justify-content: start;
+    }
+
+    header .bars-menu {
+        position: absolute;
+        z-index: 100;
+        display: block;
+        margin-right: 10rem;
+    }
+    
+    .body-overflow_hidden {
+        overflow: hidden;
+    }
+
+    .section-menu {
+        display: block;
+        background-color: white;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 78px;
+        width: 50%;
+        height: calc(100% - 78px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .section-menu ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-menu li {
+        width: 100%;
+        line-height: 90px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-menu .vinculo-principal {
+        width: 100%;
+        font-size: 2.3rem;
+        color: var(--color-secundario);
+        font-weight: 700;
+        border-bottom: 1px solid var(--color-secundario);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .section-menu svg {
+        display: flex;
+    }
+
+    .section-menu a {
+        font-size: 2.1rem;
+        text-decoration: none;
+        color: black;
+        padding: 2rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    .section-menu .submenu-responsive {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        background-color: rgb(226, 226, 226);
+        transition: max-height 0.6s ease;
+      }
+      
+      .section-menu .submenu-responsive.active {
+        max-height: 500px;
+      }
+      
+
+    .nav-menu_visible {
+        left: 50%;
+    }
+
+    .div-chat {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    
+    .div-chat p {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .div-chat img {
+        width: 42px;
+    }
+
+    main .home-page {
+        height: 100%;
+        grid-template-columns: 1fr;
+        padding: 16rem;
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        position: relative;
+    }
+    
+    main .home-page h1 {
+        font-size: 3.2rem;
+        margin-bottom: 2.5rem;
+        height: auto;
+    }
+    
+    main .home-page p {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    main .home-page button {
+        font-size: 1.8rem;
+    }
+    
+    main .home-page img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    main .section-mision {
+        padding: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+    }
+    
+    main .section-mision .container-mision {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .section-mision .container-mision h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    main .section-mision .container-mision p {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    
+    main .section-mision .container-mision .div-mision-img img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    main .section-niveles {
+        padding: 5rem;
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+    }
+    
+    main .section-niveles h2 {
+        font-size: 4rem;
+    }
+    
+    main .section-niveles .container-niveles {
+        gap: 4rem;
+    }
+    
+    main .section-niveles .container-niveles h3 {
+        font-size: 3.5rem;
+    }
+
+    main .section-niveles .container-niveles p {
+        font-size: 1.8rem;
+    }
+    
+    main .section-oferta-academica {
+        padding: 5rem;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .section-oferta-academica h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    main .section-oferta-academica .container-oferta div {
+        gap: 1rem;
+    }
+    
+    main .section-oferta-academica .container-oferta img {
+        height: 280px;
+    }
+    
+    main .section-oferta-academica .container-oferta h3 {
+        font-size: 3.2rem;
+    }
+    
+    main .section-oferta-academica .container-oferta p {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    
+    main .section-experiencia {
+        height: 100%;
+        padding: 5rem;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    
+    main .section-experiencia h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    main .section-experiencia .glide img {
+        height: 380px;
+        width: 100%;
+    }
+    
+    main .section-testimonios {
+        height: 100%;
+        padding: 3rem;
+        padding-top: 6rem;
+        padding-bottom: 12rem;
+        flex-direction: column;
+        flex-direction: column;
+    }
+    
+    main .section-testimonios h2 {
+        font-size: 4rem;
+    }
+
+    main .section-testimonios .container-testimonios {
+        padding: 0;
+    }
+    
+    main .section-testimonios .container-testimonios iframe {
+        width: 220px;
+        height: 200px;
+    }
+
+    footer {
+        padding-top: 6rem;
+        position: relative;
+    }
+    
+    footer .container-footer {
+        gap: 1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    footer .container-footer svg {
+        width: 10px;
+        height: 10px;
+    }
+    
+    footer .container-footer h3 {
+        font-size: 2rem;
+    }
+    
+    footer .container-footer a {
+        font-size: 1.2rem;
+    }
+    
+    footer .footer-redes {
+        padding: 3rem;
+        padding-bottom: 0;
+        gap: 6rem;
+    }
+
+    footer .footer-redes img {
+        width: 28px;
+    }
+    
+    footer .footer-logos {
+        padding: 3rem;
+        gap: 5rem;
+    }
+
+    footer .footer-logos img {
+        width: 130px;
+    }
+    
+    footer .footer-logos .logoUnam {
+        width: 50px;
+    }
+
+    footer .landing-footer p {
+        font-size: 1rem;
+    }
+
+    /* Estilos para la pagina de contacto */
+
+    main .section-formulario {
+        height: 100%;
+        display: flex;
+        padding: 3rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        gap: 2rem;
+    }
+    
+    main .section-formulario h1 {
+        font-size: 3rem;
+        color: var(--color-secundario);
+    }
+
+    main .section-formulario .container-formulario {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    main .section-formulario .container-formulario iframe {
+        border-radius: 1rem;
+        height: 280px;
+    }
+    
+    main .section-formulario .container-formulario .div-form h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    main .section-formulario .container-formulario form .input-mensaje {
+        height: 130px;
+    }
+    
+    main .section-formulario .container-formulario form button {
+        width: 150px;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+}
