@@ -104,7 +104,7 @@ const body = document.querySelector(".body")
         submenu.classList.toggle('active');
 
         if (colorPredeterminado) {
-        this.style.backgroundColor = "#38040E";
+        this.style.backgroundColor = "#0D2C54";
         this.style.color = "white";
       } else {
         this.style.backgroundColor = "";
