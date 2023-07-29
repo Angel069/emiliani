@@ -20,12 +20,12 @@ main .section-formulario {
     align-items: center;
     justify-content: center;
     gap: 6rem;
-    padding: 13rem;
+    padding: 14rem;
 }
 
 main .section-formulario h1 {
     font-size: 4rem;
-    color: var(--color-secundario);
+    color: black;
 }
 
 main .section-formulario .container-formulario {
@@ -33,7 +33,7 @@ main .section-formulario .container-formulario {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--color-secundario);
+    border: 1px solid #780837;
     border-radius: 1rem;
     padding: 4rem;
     gap: 2rem;
@@ -56,7 +56,7 @@ main .section-formulario .container-formulario .div-form {
 main .section-formulario .container-formulario .div-form h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--color-secundario);
+    color: black;
 }
 
 main .section-formulario .container-formulario form {
@@ -69,7 +69,7 @@ main .section-formulario .container-formulario form {
 main .section-formulario .container-formulario form input {
     padding: 2rem;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #780837;
     font-size: 1.5rem;
 }
 
@@ -84,12 +84,14 @@ main .section-formulario .container-formulario form button {
     padding: 1rem;
     border-radius: .3rem;
     border: none;
+    background-color: #780837;
+    color: white;
     box-shadow: 0 0 5px black;
     margin-top: 2rem;
 }
 
 main .section-formulario .container-formulario form button:hover {
-    background-color: var(--color-secundario);
+    background-color: #530324;
     color: white;
     cursor: pointer;
 }

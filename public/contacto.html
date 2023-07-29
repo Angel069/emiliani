@@ -17,7 +17,9 @@
     <header id="myHeader">
         <section class="section-header">
             <div class="div-logo">
-                <a href="index.html"><h1>IEM</h1></a>
+                <a href="index.html">
+                    <img src="resources/logoIEM.png" alt="Logo IEM">
+                </a>
             </div>
             <div class="bars-menu">
                 <span class="line1_bars-menu"></span>
@@ -104,18 +106,23 @@
         </section>
     </header>
 
-    <a href="">
-        <div class="div-chat" id="divChat">
-            <img src="resources/chat-asesor.png" alt="">
-            <p>Chatea con un asesor</p>
-        </div>
-    </a>
+    <div class="divChat" id="divChat">
+        <button id="menuButton">
+          <img src="resources/chat-asesor.png" alt="Imagen del botón">
+        </button>
+        <ul id="menuList">
+          <li><a href=""><img src="resources/llamada.png" alt="">Llamanos</a></li>
+          <li><a href=""><img src="resources/whatsapp.png" alt="">Escribenos</a></li>
+          <li><a href=""><img src="resources/chat.png" alt="">Chatea con un asesor</a></li>
+          <li><a href=""><img src="resources/agenda.png" alt="">Agenda tu cita</a></li>
+        </ul>
+      </div>
 
     <div class="widgets-container">
 
         <a href="">
             <div class="div-border">
-                <img src="resources/phone.png" alt="">
+                <img src="resources/llamada.png" alt="">
                 <p>Llamar</p>
             </div>
         </a>
@@ -133,7 +140,7 @@
         </a>
         <a href="">
             <div>
-                <img src="resources/informes.png" alt="">
+                <img src="resources/agenda.png" alt="">
                 <p>Informes</p>
             </div>
         </a>

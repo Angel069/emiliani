@@ -51,14 +51,22 @@ window.addEventListener("scroll", function () {
   }
 });
 
-function cargarContenido(url) {
-  fetch(url)
-    .then(response => response.text())
-    .then(data => {
-      document.querySelector("main").innerHTML = data;
-    })
-    .catch(error => console.log(error));
-}
+const container = document.querySelector(".divChat");
+const menuButton = document.getElementById("menuButton");
+const menuList = document.getElementById("menuList");
+
+// Muestra u oculta el menú al hacer clic en el botón
+menuButton.addEventListener("click", () => {
+  menuList.style.display = menuList.style.display === "flex" ? "none" : "flex";
+});
+
+// Oculta el menú al hacer clic fuera del contenedor (en el área gris)
+document.addEventListener("click", (event) => {
+  if (!divChat.contains(event.target) && event.target !== menuButton) {
+    menuList.style.display = "none";
+  }
+});
+
 
 
 
@@ -104,7 +112,7 @@ const body = document.querySelector(".body")
         submenu.classList.toggle('active');
 
         if (colorPredeterminado) {
-        this.style.backgroundColor = "#0D2C54";
+        this.style.backgroundColor = "#780837";
         this.style.color = "white";
       } else {
         this.style.backgroundColor = "";

@@ -19,7 +19,9 @@
     <header id="myHeader">
         <section class="section-header">
             <div class="div-logo">
-                <a href="index.html"><h1>IEM</h1></a>
+                <a href="index.html">
+                    <img src="resources/logoIEM.png" alt="Logo IEM">
+                </a>
             </div>
             <div class="bars-menu">
                 <span class="line1_bars-menu"></span>
@@ -106,18 +108,23 @@
         </section>
     </header>
 
-    <a href="">
-        <div class="div-chat" id="divChat">
-            <img src="resources/chat-asesor.png" alt="">
-            <p>Chatea con un asesor</p>
-        </div>
-    </a>
+    <div class="divChat" id="divChat">
+        <button id="menuButton">
+          <img src="resources/chat-asesor.png" alt="Imagen del botón">
+        </button>
+        <ul id="menuList">
+          <li><a href=""><img src="resources/llamada.png" alt="">Llamanos</a></li>
+          <li><a href=""><img src="resources/whatsapp.png" alt="">Escribenos</a></li>
+          <li><a href=""><img src="resources/chat.png" alt="">Chatea con un asesor</a></li>
+          <li><a href=""><img src="resources/agenda.png" alt="">Agenda tu cita</a></li>
+        </ul>
+      </div>
 
     <div class="widgets-container">
 
         <a href="">
             <div class="div-border">
-                <img src="resources/phone.png" alt="">
+                <img src="resources/llamada.png" alt="">
                 <p>Llamar</p>
             </div>
         </a>
@@ -135,45 +142,45 @@
         </a>
         <a href="">
             <div>
-                <img src="resources/informes.png" alt="">
-                <p>Informes</p>
+                <img src="resources/agenda.png" alt="">
+                <p>Agenda tu cita</p>
             </div>
         </a>
     </div>
 
     <main>
+
         <section class="home-page">
             <div class="home-page-text">
                 <h1>Instituto Emiliani Mexico</h1>
-                <p>Nuestro Instituto tiene más de 50 años de existencia en Tlalnepantla de Baz, imparte la educación secundaria (SEP) y la educación media superior (UNAM). Es un colegio con amplias instalaciones, donde puedes entrar en contacto directo con la naturaleza, espacios de recreo y deporte. Posee esa amplitud necesaria que permite generar paz, tranquilidad, silencio, libertad, en medio de la zona metropolitana.</p>
-                <a href="">
+                <a href="#">
                     <button>AGENDA TU CITA HOY MISMO</button>
                 </a>
             </div>
-            <div class="home-page-cover">
-                <img src="resources/cover.jpg" alt="">
-            </div>
-        </section>
-
-        <section class="section-mision">
-            <div class="container-mision">
-                <div class="div-mision-img">
-                    <img src="resources/misionImg.png" alt="Imagen Mision">
+            <div class="carousel-container">
+                <div id="carousel1" class="glide glide-custom">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <img src="resources/fondoEmiliani.jpg" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="resources/portada.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="resources/fondoEmiliani.jpg" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="resources/portada.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="resources/fondoEmiliani.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h2>Mision</h2>
-                    <p>
-                        • Impartir la Educación Básica y Media Superior.
-                        <br>
-                        • Generar ambientes de aprendizaje que faciliten a los alumnos la construcción del conocimiento, el desarrollo de habilidades, la asimilación de actitudes y valores tanto humanos como cristianos.
-                        <br>
-                        • Favorecer, en los alumnos, el desarrollo de las competencias genéricas, por medio de la investigación, el trabajo colaborativo y cooperativo, la solución de problemas, el uso de las tecnologías digitales de la información y comunicación, el dominio de una lengua extranjera y la educación en la fe.
-                        <br>
-                        • Para que al final de su proceso formativo, se experimenten como individuos felices, hábiles, responsables, creativos, socialmente útiles, comprometidos con el desarrollo sustentable, abierto al cambio social y a la trascendencia.
-                        </p>
-                </div>
             </div>
-        </section>
+        </section>        
 
         <section class="section-niveles">
             <h2>Niveles Educativos</h2>
@@ -219,7 +226,7 @@
 
         <section class="section-experiencia">
             <h2>Experiencia Emiliani</h2>
-            <div class="glide glide-custom">
+            <div id="carousel2" class="glide glide-custom">
               <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                   <li class="glide__slide">
@@ -253,16 +260,15 @@
         <section class="section-testimonios">
             <h2>Testimonios</h2>
             <div class="container-testimonios">
-                <iframe src="https://www.youtube.com/embed/8DjM1-UETHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/uyQH1Lnq9L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/qRUQOR84V7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <video src="resources/testimonio1.mp4" controls></video>
+                <video src="resources/testimonio2.mp4" controls></video>
+                <video src="resources/testimonio3.mp4" controls></video>
             </div>
         </section>
     </main>
 
     <footer id="footer" class="footer">
-        <section class="footer-principal">
-            <div class="container-footer">
+            <section class="container-footer">
                 <div>
                     <h3>Instituto</h3>
                     <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
@@ -313,8 +319,7 @@
                       <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                       </svg> Calle Somasca # 3. Col. San Rafael Tlalnepantla, Estado de México.</a>
-                </div>
-            </div>            
+                </div>          
         </section>
         <section class="footer-redes">
             <a href=""><img src="resources/instagram.png" alt=""></a>
@@ -336,7 +341,10 @@
 <script src="js/main.js"></script>
 <script src="vendor/@glidejs/glide/dist/glide.min.js"></script>
 <script>
-    new Glide('.glide', {
+    new Glide('#carousel1', {
+        autoplay: 3000,
+    }).mount()
+    new Glide('#carousel2', {
         autoplay: 2000,
     }).mount()
   </script>
