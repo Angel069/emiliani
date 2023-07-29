@@ -50,6 +50,7 @@ header .section-header .div-logo {
 
 header .section-header .div-logo img {
     width: 70px;
+    margin-top: 1rem;
 }
 
 header .bars-menu {
