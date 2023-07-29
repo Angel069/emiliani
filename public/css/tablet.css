@@ -59,9 +59,9 @@
     .section-menu .vinculo-principal {
         width: 100%;
         font-size: 2.3rem;
-        color: black;
+        color: #530324;
         font-weight: 700;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #530324;
         display: flex;
         align-items: center;
         justify-content: space-between;

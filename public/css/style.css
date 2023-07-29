@@ -130,7 +130,7 @@ nav ul li .submenu {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--color-secundario);
+    background-color: white;
     display: none;
     padding: .5rem;
     border-bottom-left-radius: 1rem;
