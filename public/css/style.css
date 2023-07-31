@@ -316,6 +316,7 @@ main .section-niveles h2 {
     font-size: 6rem;
     font-family: 'Syne', sans-serif;
     text-align: center;
+    border-bottom: 3px solid #780837;
 }
 
 main .section-niveles .container-niveles {
@@ -370,6 +371,7 @@ main .section-oferta-academica {
 main .section-oferta-academica h2 {
     font-size: 6rem;
     font-family: 'Syne', sans-serif;
+    border-bottom: 3px solid #780837;
 }
 
 main .section-oferta-academica .container-oferta {
@@ -421,6 +423,7 @@ main .section-experiencia {
 main .section-experiencia h2 {
     font-size: 6rem;
     font-family: 'Syne', sans-serif;
+    border-bottom: 3px solid #780837;
 }
 
 main .section-experiencia .glide {
@@ -477,10 +480,10 @@ main .section-testimonios {
 }
 
 main .section-testimonios h2 {
-    width: 100%;
     text-align: center;
     font-size: 6rem;
     font-family: 'Syne', sans-serif;
+    border-bottom: 3px solid #780837;
 }
 
 main .section-testimonios .container-testimonios {

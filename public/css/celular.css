@@ -175,12 +175,11 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 1; /* Asegura que el carrusel esté en una capa inferior */
     }
     
     main .home-page .carousel-container img {
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         object-fit: cover;
     }
     
